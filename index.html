@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeting codes</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+
+    <div id="Container" class="container">
+        <div style="text-align: center; margin-top: 30px;">
+            <img src="logo.png" alt="logo" style="width: 90px; height: 90px;">
+        </div>
+        <h2 class="heading">Meeting Codes</h2>
+        <p class="sub-heading">Your All Meeting join codes are given below</p>
+        <div style="text-align: center;">
+            <button id="AddBtn" class="Btn">
+                <i class="fal fa-plus"> </i> Add Meeting
+            </button>
+        </div>
+        <div class="main" id="main">
+
+        </div>
+    </div>
+
+    <div id="SectionAdd" class="sectionAdd" hidden>
+
+        <h2 class="heading">Add More Meeting Codes</h2>
+
+        <div class="inner-box">
+            <div>
+
+                <div style="text-align: center;">
+                    <img src="logo.png" alt=""
+                        style="width: 60px; height: 60px; margin-bottom: 10px; margin-top: 30px;">
+                </div>
+
+                <div class="text-outer">
+                    <input class="text-field" type="text" name="Subject" id="Subject" placeholder="Enter subject"
+                        required>
+                </div>
+                <div class="text-outer">
+                    <input class="text-field" type="number" name="Code" id="Code" placeholder="Enter meeting code"
+                        required>
+                </div>
+                <div style="text-align: center; margin-top: 40px;">
+                    <button id="saveBtn" class="Btn">Save</button>
+                </div>
+                <div style="text-align: center; margin-top: 60px;">
+                    <a id="BackBtn" role="button" class="back-link">Go Back</a>
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+
+</body>
+
+</html>

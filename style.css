@@ -1,0 +1,208 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Roboto&display=swap');
+
+body{
+    background-color: #0d1117;
+    width: 500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.container{
+    height: 900px;
+}
+.sectionAdd{
+    height: 500px;
+}
+
+.inner-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.heading{
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1rem;
+}
+.sub-heading{
+    color: rgb(214, 214, 214);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 2rem;
+}
+.text-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.main{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Baloo Bhai 2', cursive;
+    color: white;
+
+}
+.selection{
+    width: 90%;
+    background-color: #161b22;
+    height: 25px;
+    font-size: 20px;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.btn{
+    /* margin-top: -30px; */
+
+    background-color: #ffffff1f;
+    outline: none;
+    border: 1px solid #ffffff60;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+}
+.btn:hover{
+    background-color: #ffffff4d;
+    border: 1px solid #ffffffd7;
+    cursor: pointer;
+}
+
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+ 
+::-webkit-scrollbar-track {
+    background-color: #161b22;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    background: #6d6d6d; 
+}
+
+.text-field{
+    
+    background-color: transparent;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    width: 250px;
+    height: 25px;
+    color: white;
+    margin-left: 5px;
+}
+
+.text-outer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #161b22;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.Btn{
+    outline: none;
+    width: 150px;
+    height: 40px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    opacity: 0.8;
+    background-color: #069c24;
+    transition: .2s cubic-bezier(0.3, 0, 0.5, 1);
+    margin-bottom: 40px;
+}
+.Btn:hover{
+    opacity: 1;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 80px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -40px;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+  }
+  
+  .tooltip:active .tooltiptext {
+    visibility: visible;
+    transition: 0.5s;
+  }
+
+  .back-link{
+    color: rgb(177, 177, 177); 
+    text-decoration: underline; 
+    font-size: 16px; 
+    cursor: pointer; 
+    font-family: 'Roboto', sans-serif;
+    
+  }
+
+  .trash-box{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-left: 20px; 
+    display: none;
+  }
+
+  .trash{
+    font-size: 24px; 
+    color: #ffffff;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: .2s cubic-bezier(0.3, 0, 0.5, 1);
+  }
+  .trash:hover{
+    color: #ff0018;
+    opacity: 1;
+  }
+
