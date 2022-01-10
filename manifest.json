@@ -15,11 +15,5 @@
         "tabs",
         "storage"
     ],
-    "authors": [
-        {
-            "name": "Digambar Chaudhari",
-            "email": ""
-        }
-    ],
     "content_security_policy": "script-src 'self' https://apis.google.com; object-src 'self'"
 }
